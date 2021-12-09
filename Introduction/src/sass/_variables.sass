@@ -1,0 +1,11 @@
+$danger : blue 
+$dark : black 
+@import "../../node_modules/bootstrap/scss/_functions.scss"
+@import "../../node_modules/bootstrap/scss/_variables.scss" 
+/*tous les variables de bootstrap sont ici*/
+
+$spacers: map-merge($spacers, (6: $spacer*4, 7: $spacer*6)) 
+/*map merge takes all the existing spacer values and you add to it*/
+
+$font-sizes: map-merge($font-sizes, (1: 150px, 2: 100px, 3: 75px))
+/*ils traduirent pixels en rem*/
